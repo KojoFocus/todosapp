@@ -1,5 +1,7 @@
+import { Luckiest_Guy } from "next/font/google";
+
 /** @type {import('tailwindcss').Config} */
-export default {
+const tailwindConfig = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,7 +13,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        luckiestGuy: ["var(--font-luckiest-guy)"],
+      },
     },
   },
   plugins: [],
 };
+
+export default tailwindConfig;
