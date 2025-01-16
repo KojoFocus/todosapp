@@ -14,7 +14,7 @@ const tailwindConfig = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        luckiestGuy: ["var(--font-luckiest-guy)"],
+        luckiestGuy: ["var(--font-luckiest-guy)", "sans-serif"],
       },
     },
   },
